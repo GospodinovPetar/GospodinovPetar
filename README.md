@@ -2,13 +2,13 @@
   <img src="https://cdn.discordapp.com/attachments/837093180783722536/1019666918602444850/laptop-illustration-2-removebg-preview.png" width="150"/>
   <div id="badges">
     <br></br>
-  <a href="https://discord.gg/xvDJm8mEjA">
+  <a href="">
     <img src="https://img.shields.io/badge/Discord-blue?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Badge"/>
   </a>
-  <a href="https://www.instagram.com/dobri_.ivanov/?hl=bg">
+  <a href="https://www.instagram.com/lesh0kefa">
     <img src="https://img.shields.io/badge/Instagram-critical?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
   </a>
-  <a href="https://twitter.com/dobri_iivanov">
+  <a href="https://twitter.com/leshokefa">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 <h1 align="center" >
@@ -29,7 +29,7 @@
 
 ## 📑Certificates:
  <div>
-  <img src="https://discord.com/channels/@me/690937021287366698/1068157147617185833" width="33%"/>
+  <img src="https://media.discordapp.net/attachments/690937021287366698/1068157147474559036/IMG-4987e20da37cfac9a5e97c221c7bdccd-V.jpg?width=203&height=585" width="33%"/>
 </div>
 
 ## Languages and Tools :
