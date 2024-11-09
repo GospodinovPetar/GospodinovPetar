@@ -18,7 +18,7 @@
  - I am currently learning Python (SoftUni) 
  - I have experience in design (Photoshop)
  - Here are my projects - ([Repositories](https://github.com/leshokefa?tab=repositories))
- - How to reach me:  Personal Email: petarjordanov2003@gmail.com
+ - Personal Email: petarjordanov2003@gmail.com
 
 ## 📑Certificates:
  <div>
