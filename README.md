@@ -1,5 +1,4 @@
 <div id="header" align="center">
-  <img src="https://cdn.discordapp.com/attachments/837093180783722536/1019666918602444850/laptop-illustration-2-removebg-preview.png" width="150"/>
   <div id="badges">
     <br></br>
   <a href="">
