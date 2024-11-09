@@ -19,7 +19,7 @@
 
 
 ## :man_technologist: About Me :
- - My name is Petar Gospodinov | 19 years old
+ - My name is Petar Gospodinov | 21 years old
  - I am from Bulgaria (Plovdiv)
  - I am currently learning Python (SoftUni) 
  - I have experience in design (Photoshop)
@@ -28,7 +28,8 @@
 
 ## 📑Certificates:
  <div>
-  <img src="https://media.discordapp.net/attachments/690937021287366698/1068157147474559036/IMG-4987e20da37cfac9a5e97c221c7bdccd-V.jpg?width=203&height=585" width="33%"/>
+  <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHN14tEStQBAA/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1729871316630?e=1731754800&v=beta&t=Ado14pyA2fe0O15YEEwhB2k6OsAyTOH7bwigRb0hHsw" width="33%"/>
+   <img src="https://softuni.bg//Content/images/certificates/logo-white.svg" width="33%"/>
 </div>
 
 ## Languages and Tools :
