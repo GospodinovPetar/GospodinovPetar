@@ -15,8 +15,8 @@
  - My name is Petar Gospodinov | 21 years old
  - I am from Bulgaria (Plovdiv)
  - I am currently learning Python (SoftUni) 
- - My experiences: ([Resume](https://petargospodinov.tiiny.site))
- - Here are my projects - ([Repositories](https://github.com/GospodinovPetar?tab=repositories))
+ - My experiences - [Resume](https://petargospodinov.tiiny.site)
+ - Here are my projects - [Repositories](https://github.com/GospodinovPetar?tab=repositories)
  - Personal Email: petarjordanov2003@gmail.com
 
 ## 📑Certificates:
