@@ -15,7 +15,7 @@
  - My name is Petar Gospodinov | 21 years old
  - I am from Bulgaria (Plovdiv)
  - I am currently learning Python (SoftUni) 
- - I have experience in design (Photoshop)
+ - My experiences: ([Resume](https://petargospodinov.tiiny.site))
  - Here are my projects - ([Repositories](https://github.com/leshokefa?tab=repositories))
  - Personal Email: petarjordanov2003@gmail.com
 
