@@ -21,7 +21,8 @@
 
 ## 📑Certificates:
  <div>
-  <img src="https://media.licdn.com/dms/image/v2/D4E2DAQHN14tEStQBAA/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1729871316630?e=1732658400&v=beta&t=Vmmm-A_KrON0f_h8Z2CH9x2bxPBfEDowNYruCtHpwGE" width="33%"/>
+  <img src="https://softuni.bg/certificates/certificates/converttoimage/203749?code=70a4a642" width="33%"/>
+  <img src="https://softuni.bg/certificates/certificates/converttoimage/167197?code=c226fc5b" width="33%"/>
 </div>
 
 ## Languages and Tools :
