@@ -1,6 +1,6 @@
 <div id="header" align="center">
   <div id="badges">
-  <a href="https://www.linkedin.com/in/петър-господинов-40bb24246/">
+  <a href="https://www.linkedin.com/in/petar-gospodinov/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
 <h1 align="center" >
