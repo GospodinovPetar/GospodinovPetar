@@ -21,8 +21,9 @@
 
 ## 📑Certificates:
  <div>
-  <img src="https://softuni.bg/certificates/certificates/converttoimage/203749?code=70a4a642" width="33%"/>
-  <img src="https://softuni.bg/certificates/certificates/converttoimage/167197?code=c226fc5b" width="33%"/>
+  <a href='https://softuni.bg/certificates/details/236114/8f72f779'>PostreSQL</a> <br>
+  <a href='https://softuni.bg/certificates/details/203749/70a4a642'>Python Advanced</a> <br>
+  <a href='https://softuni.bg/certificates/details/234031/51726244'>Python OOP</a>
 </div>
 
 ## Languages and Tools :
