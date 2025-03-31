@@ -21,6 +21,7 @@
 
 ## 📑Certificates:
  <div>
+  <a href='https://softuni.bg/certificates/details/240848/6fee06cb'>Python ORM with Django</a> <br>
   <a href='https://softuni.bg/certificates/details/236114/8f72f779'>PostreSQL</a> <br>
   <a href='https://softuni.bg/certificates/details/203749/70a4a642'>Python Advanced</a> <br>
   <a href='https://softuni.bg/certificates/details/234031/51726244'>Python OOP</a>
