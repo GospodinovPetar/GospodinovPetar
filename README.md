@@ -14,7 +14,7 @@
 ## :man_technologist: About Me :
  - My name is Petar Gospodinov | 21 years old
  - I am from Bulgaria (Plovdiv)
- - I am currently learning Python (SoftUni) 
+ - I am currently working @ ICT Strypes as a Python Developer
  - My experiences - [Resume](https://petar-gospodinov.tiiny.site)
  - Here are my projects - [Repositories](https://github.com/GospodinovPetar?tab=repositories)
  - Personal Email: petarjordanov2003@gmail.com
