@@ -1,14 +1,7 @@
-<div id="header" align="center">
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/petar-gospodinov/">
-      <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-    </a>
-    <h1>
-      Welcome
-      <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"/>
-    </h1>
-  </div>
-</div>
+<h1 align='center'>
+  Welcome
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px"/>
+</h1>
 
 ## :man_technologist: About Me
 - **Name:** Petar Gospodinov  
@@ -18,8 +11,6 @@
 - **Resume:** [View my resume](https://petar-gospodinov.tiiny.site)  
 - **Projects:** [My GitHub repositories](https://github.com/GospodinovPetar?tab=repositories)  
 - **Email:** petarjordanov2003@gmail.com
-
----
 
 ## 📑 Certificates, Top Languages & Tools
 
