@@ -26,7 +26,7 @@
     </td>
     <td>
       <img
-        src="https://github-readme-stats.vercel.app/api/top-langs?username=gospodinovPetar&locale=en&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&custom_title=Петър_Господинов"
+        src="https://github-readme-stats.vercel.app/api/top-langs?username=gospodinovPetar&locale=en&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&custom_title=Петър%20Господинов"
         height="150"
         alt="languages graph"
       />
