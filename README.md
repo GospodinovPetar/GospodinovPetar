@@ -4,7 +4,6 @@
 </h1>
 
 ## :man_technologist: About Me
-- **Name:** Petar Gospodinov  
 - **Current Role:** Python Developer @ ICT Strypes  
 - **Resume:** [View my resume](https://petar-gospodinov.tiiny.site)  
 - **Projects:** [My GitHub repositories](https://github.com/GospodinovPetar?tab=repositories)  
