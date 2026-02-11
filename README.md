@@ -21,13 +21,13 @@
         <li><a href="https://softuni.bg/certificates/details/234031/51726244">Python OOP</a></li>
       </ul>
     </td>
-    <td>
+    <!-- <td>
       <img
         src="https://github-readme-stats.vercel.app/api/top-langs?username=gospodinovPetar&locale=en&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&custom_title=Петър%20Господинов"
         height="150"
         alt="languages graph"
       />
-    </td>
+    </td> -->
     <td>
       <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="50" height="50"/>&nbsp;
       <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain-wordmark.svg" title="Django" alt="Django" width="60" height="60"/>&nbsp;
