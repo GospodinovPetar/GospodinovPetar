@@ -7,7 +7,7 @@
 - **Current Role:** Python Developer
 - **Resume:** [View my resume](https://petar-gospodinov.tiiny.site)  
 - **Projects:** [My GitHub repositories](https://github.com/GospodinovPetar?tab=repositories)  
-- **Email:** petarjordanov2003@gmail.com
+- **Email:** p.gospodinovv@gmail.com
 
 ## 📑 Certificates, Top Languages & Tools
 
