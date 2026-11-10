@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 476" width="1000" height="476" role="img" aria-labelledby="title desc">
+  <title id="title">How I ship</title>
+  <desc id="desc">One branch per environment. A push to dev runs GitLab CI (lint, test, build, push) and builds one image tagged with the commit SHA. Merge requests promote that same image from dev to test (review) and from test to prod (approval and migration gate), each branch deploying with Helm to its own AKS cluster, all monitored with Grafana, Prometheus and Sentry.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151622"/>
+      <stop offset="1" stop-color="#231b3d"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#7F5AF0"/>
+    </marker>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #e6edf3; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .h { font-size: 14px; font-weight: 700; }
+    .s { font-size: 11.5px; fill: #8f8bb0; }
+    .tag { font-size: 12px; fill: #b9a9ff; }
+    .cap { font-size: 12px; font-weight: 700; letter-spacing: 3px; fill: #9d8cf0; }
+    .col { font-size: 10.5px; font-weight: 700; letter-spacing: 2px; fill: #6e6a8f; }
+    .node { fill: #1d1e2e; stroke: #3a3563; stroke-width: 1.5; }
+    .chip { fill: #26253b; stroke: #3a3563; stroke-width: 1; }
+    .chip-t { font-size: 12px; fill: #cfc8f5; }
+    .rule { fill: rgba(63, 185, 80, 0.08); stroke: #2f6f3a; stroke-width: 1; }
+    .rule-t { font-size: 10.5px; fill: #9be9a8; }
+    .rail { fill: none; stroke-width: 3; stroke-linecap: round; opacity: .55; }
+    .old { fill: none; stroke-width: 2.5; opacity: .3; }
+    .mr { fill: none; stroke-width: 2.5; stroke-dasharray: 6 5; animation: march .9s linear infinite; }
+    .dev { stroke: #a78bfa; } .test { stroke: #38bdf8; } .prod { stroke: #34d399; }
+    .fdev { fill: #a78bfa; } .ftest { fill: #38bdf8; } .fprod { fill: #34d399; }
+    .commit { stroke: #1b1b2a; stroke-width: 2.5; }
+    .flow { fill: none; stroke: #7F5AF0; stroke-width: 2; stroke-dasharray: 5 5; animation: march .9s linear infinite; }
+    .tap { fill: none; stroke: #3fb950; stroke-width: 1.5; stroke-dasharray: 3 5; opacity: .7; animation: march .9s linear infinite; }
+    .wave { animation: wave 9s ease-in-out infinite; }
+    .dot { fill: #3fb950; }
+    .ring { fill: none; stroke: #3fb950; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; }
+    .spark { fill: none; stroke: #3fb950; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 400; stroke-dashoffset: 400; animation: draw 9s ease-in-out infinite; }
+    .prod-glow { fill: none; stroke: #34d399; stroke-width: 3; opacity: .4; filter: url(#glow); animation: breathe 3s ease-in-out infinite; }
+    @keyframes march { to { stroke-dashoffset: -11; } }
+    @keyframes wave { 0%, 14%, 100% { stroke: #3a3563; stroke-width: 1.5; } 4% { stroke: #e9e4ff; stroke-width: 2.5; } }
+    @keyframes ping { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.8); opacity: 0; } }
+    @keyframes draw { 0% { stroke-dashoffset: 400; } 60%, 100% { stroke-dashoffset: 0; } }
+    @keyframes breathe { 0%, 100% { opacity: .2; } 50% { opacity: .6; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .spark { stroke-dashoffset: 0; }
+    }
+  </style>
+
+  <!-- terminal window chrome, same as the other README windows -->
+  <rect x=".75" y=".75" width="998.5" height="474.5" rx="12" fill="#0f111a"/>
+  <path d="M.75 36V12.75A12 12 0 0 1 12.75 .75H987.25A12 12 0 0 1 999.25 12.75V36z" fill="#171a24"/>
+  <path d="M.75 36.5H999.25" stroke="#2a2f3d"/>
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/><circle cx="40" cy="18" r="6" fill="#febc2e"/><circle cx="60" cy="18" r="6" fill="#28c840"/>
+  <text x="500" y="22" text-anchor="middle" style="fill:#8b949e;font-size:12px">petar@sofia: ~/infra</text>
+
+  <g transform="translate(0 36)">
+  <text x="28" y="40" font-size="14"><tspan style="fill:#34d399;font-weight:700">$</tspan><tspan dx="8.4">./ship --follow 3f9c2a1</tspan><tspan dx="16.8" style="fill:#6e7681;font-style:italic"># one branch per env · build once · promote by merge</tspan></text>
+  <text x="28" y="78" class="col">BRANCHES</text>
+  <text x="496" y="78" class="col">PIPELINE</text>
+  <text x="770" y="78" class="col">CLUSTERS</text>
+
+  <!-- branch labels -->
+  <rect x="28" y="106" width="68" height="28" rx="14" fill="#1d1e2e" class="dev" stroke-width="1.5"/>
+  <text x="62" y="124.5" class="mono" font-size="13" text-anchor="middle">dev</text>
+  <rect x="28" y="196" width="68" height="28" rx="14" fill="#1d1e2e" class="test" stroke-width="1.5"/>
+  <text x="62" y="214.5" class="mono" font-size="13" text-anchor="middle">test</text>
+  <rect x="28" y="286" width="68" height="28" rx="14" fill="#1d1e2e" class="prod" stroke-width="1.5"/>
+  <text x="62" y="304.5" class="mono" font-size="13" text-anchor="middle">prod</text>
+
+  <!-- git graph -->
+  <path d="M110 120 H470" class="rail dev"/>
+  <path d="M110 210 H470" class="rail test"/>
+  <path d="M110 300 H470" class="rail prod"/>
+  <path d="M130 120 C145 120 135 210 150 210" class="old dev"/>
+  <path d="M170 210 C185 210 185 300 200 300" class="old test"/>
+  <path d="M290 120 C315 120 305 210 330 210" class="mr dev"/>
+  <path d="M380 210 C405 210 395 300 420 300" class="mr test"/>
+  <text x="264" y="170" class="s" text-anchor="end">MR · review</text>
+  <text x="354" y="260" class="s" text-anchor="end">MR · approval</text>
+
+  <circle cx="130" cy="120" r="5" class="fdev commit"/>
+  <circle cx="170" cy="120" r="5" class="fdev commit"/>
+  <circle cx="210" cy="120" r="5" class="fdev commit"/>
+  <circle cx="250" cy="120" r="5" class="fdev commit"/>
+  <circle cx="290" cy="120" r="6" class="fdev commit"/>
+  <circle cx="150" cy="210" r="5" class="ftest commit"/>
+  <circle cx="170" cy="210" r="5" class="ftest commit"/>
+  <circle cx="330" cy="210" r="6" class="ftest commit"/>
+  <circle cx="380" cy="210" r="5" class="ftest commit"/>
+  <circle cx="200" cy="300" r="5" class="fprod commit"/>
+  <circle cx="420" cy="300" r="6" class="fprod commit"/>
+
+  <!-- the release: one SHA travelling dev → test → prod -->
+  <!-- keyPoints are measured path-length fractions (merge dots at 0.3678 / 0.5817 / 0.8978), so speed stays ~110px/s; no blur filter on the moving token -->
+  <g>
+    <rect x="-44" y="-16" width="88" height="32" rx="16" fill="#7F5AF0" opacity=".18"/>
+    <rect x="-38" y="-11" width="76" height="22" rx="11" fill="#2a2350" stroke="#c4b5fd" stroke-width="1.5"/>
+    <text x="0" y="4" class="mono" font-size="11.5" text-anchor="middle">3f9c2a1</text>
+    <animateMotion dur="9s" repeatCount="indefinite" calcMode="spline"
+      path="M110 120 H290 C315 120 305 210 330 210 H380 C405 210 395 300 420 300 H470"
+      keyTimes="0;0.0444;0.2222;0.3333;0.4444;0.5778;0.7333;0.8667;0.9333;1"
+      keyPoints="0;0;0.3678;0.3678;0.5817;0.5817;0.8978;0.8978;1;1"
+      keySplines="0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1;.45 0 .55 1;0 0 1 1"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.0444;0.9333;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- pipelines -->
+  <path d="M470 120 H492 M470 210 H492 M470 300 H492" class="flow"/>
+
+  <text x="496" y="98" class="s">GitLab CI · build once</text>
+  <rect x="496" y="106" width="50" height="28" rx="7" class="chip wave" style="animation-delay:.6s"/>
+  <text x="521" y="124" class="mono chip-t" text-anchor="middle">lint</text>
+  <rect x="552" y="106" width="50" height="28" rx="7" class="chip wave" style="animation-delay:1s"/>
+  <text x="577" y="124" class="mono chip-t" text-anchor="middle">test</text>
+  <rect x="608" y="106" width="58" height="28" rx="7" class="chip wave" style="animation-delay:1.4s"/>
+  <text x="637" y="124" class="mono chip-t" text-anchor="middle">build</text>
+  <rect x="672" y="106" width="52" height="28" rx="7" class="chip wave" style="animation-delay:1.8s"/>
+  <text x="698" y="124" class="mono chip-t" text-anchor="middle">push</text>
+  <path d="M728 120 H766" class="flow" marker-end="url(#arrow)"/>
+
+  <text x="496" y="188" class="s">GitLab CI · promote, no rebuild</text>
+  <rect x="496" y="196" width="114" height="28" rx="7" class="chip wave" style="animation-delay:4.1s"/>
+  <text x="553" y="214" class="mono chip-t" text-anchor="middle">promote image</text>
+  <rect x="616" y="196" width="106" height="28" rx="7" class="chip wave" style="animation-delay:4.5s"/>
+  <text x="669" y="214" class="mono chip-t" text-anchor="middle">helm upgrade</text>
+  <path d="M726 210 H766" class="flow" marker-end="url(#arrow)"/>
+
+  <text x="496" y="278" class="s">GitLab CI · release</text>
+  <rect x="496" y="286" width="120" height="28" rx="7" class="chip wave" style="animation-delay:6.8s"/>
+  <text x="556" y="304" class="mono chip-t" text-anchor="middle">migration gate</text>
+  <rect x="622" y="286" width="106" height="28" rx="7" class="chip wave" style="animation-delay:7.2s"/>
+  <text x="675" y="304" class="mono chip-t" text-anchor="middle">helm upgrade</text>
+  <path d="M732 300 H766" class="flow" marker-end="url(#arrow)"/>
+
+  <!-- clusters -->
+  <rect x="770" y="88" width="180" height="64" rx="12" class="node wave" style="animation-delay:2.2s"/>
+  <text x="786" y="114" class="h">AKS · dev</text>
+  <text x="938" y="114" class="mono tag" text-anchor="end">3f9c2a1</text>
+  <circle cx="790" cy="132" r="4" class="dot"/><circle cx="790" cy="132" r="4" class="ring"/>
+  <text x="800" y="136" class="s">healthy</text>
+
+  <rect x="770" y="178" width="180" height="64" rx="12" class="node wave" style="animation-delay:4.9s"/>
+  <text x="786" y="204" class="h">AKS · test</text>
+  <text x="938" y="204" class="mono tag" text-anchor="end">3f9c2a1</text>
+  <circle cx="790" cy="222" r="4" class="dot"/><circle cx="790" cy="222" r="4" class="ring" style="animation-delay:.6s"/>
+  <text x="800" y="226" class="s">healthy</text>
+
+  <rect x="770" y="268" width="180" height="64" rx="12" class="prod-glow"/>
+  <rect x="770" y="268" width="180" height="64" rx="12" class="node wave" style="animation-delay:7.6s"/>
+  <text x="786" y="294" class="h">AKS · prod</text>
+  <text x="938" y="294" class="mono tag" text-anchor="end">3f9c2a1</text>
+  <circle cx="790" cy="312" r="4" class="dot"/><circle cx="790" cy="312" r="4" class="ring" style="animation-delay:1.2s"/>
+  <text x="800" y="316" class="s">healthy</text>
+
+  <!-- observability -->
+  <path d="M950 120 H966 M950 210 H966 M950 300 H966 M966 120 V360" class="tap"/>
+  <rect x="496" y="360" width="482" height="60" rx="14" class="node"/>
+  <text x="514" y="386" class="h">Grafana · Prometheus · Sentry</text>
+  <text x="514" y="405" class="s">metrics · dashboards · alerts</text>
+  <path d="M790 406 L806 398 L822 402 L838 389 L854 394 L870 381 L886 387 L902 376 L918 384 L934 378 L952 382" class="spark"/>
+
+  <!-- guardrails -->
+  <text x="28" y="374" class="cap">GUARDRAILS</text>
+  <rect x="28" y="386" width="132" height="28" rx="14" class="rule"/>
+  <text x="94" y="404" class="rule-t" text-anchor="middle">✓ versioned releases</text>
+  <rect x="168" y="386" width="150" height="28" rx="14" class="rule"/>
+  <text x="243" y="404" class="rule-t" text-anchor="middle">✓ safe prod migrations</text>
+  <rect x="326" y="386" width="160" height="28" rx="14" class="rule"/>
+  <text x="406" y="404" class="rule-t" text-anchor="middle">✓ CSP + input validation</text>
+  </g>
+  <rect x=".75" y=".75" width="998.5" height="474.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
+</svg>
