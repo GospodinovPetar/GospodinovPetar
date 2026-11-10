@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 420 548" width="420" height="548" role="img" aria-labelledby="title desc">
+  <title id="title">Stack</title>
+  <desc id="desc">My stack as YAML. ai: claude-code, openrouter, agno, groq. platform: kubernetes/aks, azure, helm, docker, traefik, linux. delivery: gitlab-ci, github-actions, git. observability: grafana, prometheus, sentry. backend: python, django, django-cms, fastapi, celery. data: postgresql, redis, sqlite. frontend: javascript, htmx, alpine.js, tailwind. security: csp, input-validation, gdpr/onetrust.</desc>
+  <defs>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="wipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f111a" stop-opacity="0"/><stop offset=".16" stop-color="#0f111a"/><stop offset="1" stop-color="#0f111a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #e6edf3; white-space: pre; }
+    .p { fill: #34d399; font-weight: 700; }
+    .c { fill: #6e7681; font-style: italic; }
+    .k { fill: #a78bfa; }
+    .s { fill: #a5d6ff; }
+    .ok { fill: #3fb950; }
+    .w { fill: #f2cc60; }
+    .e { fill: #ff7b72; font-weight: 700; }
+    .dim { fill: #8b949e; }
+    .cy { fill: #38bdf8; }
+    .b { font-weight: 700; }
+    .name { fill: url(#name); font-weight: 800; }
+    .title { fill: #8b949e; font-size: 12px; }
+    .o { animation: pop .01s linear both; }
+    .rise { animation: rise .8s cubic-bezier(.2,.8,.2,1) both; }
+    .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+    @keyframes type { from { transform: translateX(0); } }
+    @keyframes pop { from { opacity: 0; } }
+    @keyframes curs { from, to { opacity: 1; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+</style>
+  <rect x=".75" y=".75" width="418.5" height="546.5" rx="12" fill="#0f111a"/>
+  <path d="M.75 36V12.75A12 12 0 0 1 12.75 .75H407.25A12 12 0 0 1 419.25 12.75V36z" fill="#171a24"/>
+  <path d="M.75 36.5H419.25" stroke="#2a2f3d"/>
+  <circle cx="20" cy="18" r="6" fill="#ff5f57"/><circle cx="40" cy="18" r="6" fill="#febc2e"/><circle cx="60" cy="18" r="6" fill="#28c840"/>
+  <text x="210.0" y="22" class="title" text-anchor="middle">petar@sofia: ~/dotfiles</text>
+  
+    <text x="20" y="66" font-size="13" class="p o" style="animation-delay:0.20s">$</text>
+  <text x="35.6" y="66" font-size="13">cat stack.yaml</text>
+  <g style="transform:translateX(109.2px);animation:type 0.70s steps(14) 0.40s both"><rect x="35.6" y="53.6" width="132.6" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.70s linear 0.40s"/></g>
+  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.45s"><tspan class="c"># pair-programs with me daily</tspan></text>
+  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.50s"><tspan class="k">ai:</tspan><tspan class="s"> [claude-code, openrouter, agno, groq]</tspan></text>
+  <text x="20" y="141.60000000000002" font-size="13" class="o " style="animation-delay:1.55s"><tspan class="c"># multi-cluster, one image</tspan></text>
+  <text x="20" y="162.60000000000002" font-size="13" class="o " style="animation-delay:1.60s"><tspan class="k">platform:</tspan><tspan class="s"> [kubernetes/aks, azure, helm, docker,</tspan></text>
+  <text x="20" y="183.60000000000002" font-size="13" class="o " style="animation-delay:1.65s"><tspan class="s">           traefik, linux]</tspan></text>
+  <text x="20" y="210.90000000000003" font-size="13" class="o " style="animation-delay:1.70s"><tspan class="c"># one branch per env</tspan></text>
+  <text x="20" y="231.90000000000003" font-size="13" class="o " style="animation-delay:1.75s"><tspan class="k">delivery:</tspan><tspan class="s"> [gitlab-ci, github-actions, git]</tspan></text>
+  <text x="20" y="259.20000000000005" font-size="13" class="o " style="animation-delay:1.80s"><tspan class="c"># no dashboard, didn't happen</tspan></text>
+  <text x="20" y="280.20000000000005" font-size="13" class="o " style="animation-delay:1.85s"><tspan class="k">observability:</tspan><tspan class="s"> [grafana, prometheus, sentry]</tspan></text>
+  <text x="20" y="307.50000000000006" font-size="13" class="o " style="animation-delay:1.90s"><tspan class="c"># django cms in production</tspan></text>
+  <text x="20" y="328.50000000000006" font-size="13" class="o " style="animation-delay:1.95s"><tspan class="k">backend:</tspan><tspan class="s"> [python, django, django-cms, fastapi,</tspan></text>
+  <text x="20" y="349.50000000000006" font-size="13" class="o " style="animation-delay:2.00s"><tspan class="s">          celery]</tspan></text>
+  <text x="20" y="376.80000000000007" font-size="13" class="o " style="animation-delay:2.05s"><tspan class="c"># cache with stale fallback</tspan></text>
+  <text x="20" y="397.80000000000007" font-size="13" class="o " style="animation-delay:2.10s"><tspan class="k">data:</tspan><tspan class="s"> [postgresql, redis, sqlite]</tspan></text>
+  <text x="20" y="425.1000000000001" font-size="13" class="o " style="animation-delay:2.15s"><tspan class="c"># js only where it earns it</tspan></text>
+  <text x="20" y="446.1000000000001" font-size="13" class="o " style="animation-delay:2.20s"><tspan class="k">frontend:</tspan><tspan class="s"> [javascript, htmx, alpine.js, tailwind]</tspan></text>
+  <text x="20" y="473.4000000000001" font-size="13" class="o " style="animation-delay:2.25s"><tspan class="c"># led the CSP rollout</tspan></text>
+  <text x="20" y="494.4000000000001" font-size="13" class="o " style="animation-delay:2.30s"><tspan class="k">security:</tspan><tspan class="s"> [csp, input-validation, gdpr/onetrust]</tspan></text>
+  <g class="o" style="animation-delay:2.55s"><text x="20" y="521.7" font-size="13" class="p">$</text><rect x="35.6" y="511.3" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
+  <rect x=".75" y=".75" width="418.5" height="546.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
+</svg>
