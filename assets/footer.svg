@@ -41,9 +41,9 @@
   
     <text x="28" y="72" font-size="14" class="p o" style="animation-delay:0.20s">$</text>
   <text x="44.8" y="72" font-size="14">exit</text>
-  <g style="transform:translateX(33.6px);animation:type 0.20s steps(4) 0.40s both"><rect x="44.8" y="58.7" width="58.8" height="23" fill="#0f111a"/><rect x="44.8" y="60.8" width="8.4" height="13.3" fill="#e6edf3" style="opacity:0;animation:curs 0.20s linear 0.40s"/></g>
-  <text x="28" y="95" font-size="14" class="o " style="animation-delay:0.95s"><tspan class="dim">logout</tspan></text>
-  <text x="28" y="118" font-size="14" class="o " style="animation-delay:1.25s"><tspan class="">thanks for stopping by — </tspan><tspan class="ok">see you in prod.</tspan></text>
-  <text x="28" y="141" font-size="14" class="o " style="animation-delay:1.55s"><tspan class="dim">Connection to github.com closed.</tspan></text>
+  <g style="transform:translateX(42.0px);animation:type 0.25s steps(5) 0.40s both"><rect x="44.8" y="58.7" width="58.8" height="23" fill="#0f111a"/><rect x="44.8" y="60.8" width="8.4" height="13.3" fill="#e6edf3" style="opacity:0;animation:curs 0.25s linear 0.40s"/></g>
+  <text x="28" y="95" font-size="14" class="o " style="animation-delay:1.00s"><tspan class="dim">logout</tspan></text>
+  <text x="28" y="118" font-size="14" class="o " style="animation-delay:1.30s"><tspan class="">thanks for stopping by — </tspan><tspan class="ok">see you in prod.</tspan></text>
+  <text x="28" y="141" font-size="14" class="o " style="animation-delay:1.60s"><tspan class="dim">Connection to github.com closed.</tspan></text>
   <rect x=".75" y=".75" width="998.5" height="165.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

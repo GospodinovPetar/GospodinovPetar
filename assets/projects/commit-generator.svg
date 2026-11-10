@@ -42,11 +42,11 @@
     <text x="18" y="64" font-size="13.5" class="o " style="animation-delay:1.60s"><tspan class="c"># AI commit messages, secrets scrubbed first</tspan></text>
   <text x="18" y="87" font-size="13.5" class="p o" style="animation-delay:1.47s">$</text>
   <text x="34.2" y="87" font-size="13.5">commit</text>
-  <g style="transform:translateX(48.6px);animation:type 0.27s steps(6) 1.67s both"><rect x="34.2" y="74.2" width="72.9" height="23" fill="#0f111a"/><rect x="34.2" y="76.2" width="8.1" height="12.8" fill="#e6edf3" style="opacity:0;animation:curs 0.27s linear 1.67s"/></g>
-  <text x="18" y="110" font-size="13.5" class="o " style="animation-delay:2.19s"><tspan class="dim">scrubbed </tspan><tspan class="w">2 secrets</tspan><tspan class="dim"> · blocked </tspan><tspan class="ok">0 files</tspan></text>
-  <text x="18" y="133" font-size="13.5" class="o " style="animation-delay:2.44s"><tspan class="k">feat(ci)</tspan><tspan class="">: promote image by SHA, skip rebuild</tspan></text>
-  <text x="18" y="156" font-size="13.5" class="o " style="animation-delay:2.69s"><tspan class="dim">commit &amp; push? [y/n] </tspan><tspan class="">y  </tspan><tspan class="ok">✓ </tspan><tspan class="">pushed to origin/dev</tspan></text>
-  <text x="18" y="179" font-size="13.5" class="o " style="animation-delay:2.94s"><tspan class="c"># python · groq · gpt-oss-120b</tspan></text>
-  <g class="o" style="animation-delay:3.21s"><text x="18" y="202" font-size="13.5" class="p">$</text><rect x="34.2" y="191.2" width="8.1" height="12.8" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(56.7px);animation:type 0.32s steps(7) 1.67s both"><rect x="34.2" y="74.2" width="72.9" height="23" fill="#0f111a"/><rect x="34.2" y="76.2" width="8.1" height="12.8" fill="#e6edf3" style="opacity:0;animation:curs 0.32s linear 1.67s"/></g>
+  <text x="18" y="110" font-size="13.5" class="o " style="animation-delay:2.24s"><tspan class="dim">scrubbed </tspan><tspan class="w">2 secrets</tspan><tspan class="dim"> · blocked </tspan><tspan class="ok">0 files</tspan></text>
+  <text x="18" y="133" font-size="13.5" class="o " style="animation-delay:2.49s"><tspan class="k">feat(ci)</tspan><tspan class="">: promote image by SHA, skip rebuild</tspan></text>
+  <text x="18" y="156" font-size="13.5" class="o " style="animation-delay:2.74s"><tspan class="dim">commit &amp; push? [y/n] </tspan><tspan class="">y  </tspan><tspan class="ok">✓ </tspan><tspan class="">pushed to origin/dev</tspan></text>
+  <text x="18" y="179" font-size="13.5" class="o " style="animation-delay:2.99s"><tspan class="c"># python · groq · gpt-oss-120b</tspan></text>
+  <g class="o" style="animation-delay:3.26s"><text x="18" y="202" font-size="13.5" class="p">$</text><rect x="34.2" y="191.2" width="8.1" height="12.8" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="478.5" height="226.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

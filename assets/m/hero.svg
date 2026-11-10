@@ -41,29 +41,29 @@
   
     <text x="20" y="66" font-size="13" class="p o" style="animation-delay:0.20s">$</text>
   <text x="35.6" y="66" font-size="13">whoami</text>
-  <g style="transform:translateX(46.8px);animation:type 0.30s steps(6) 0.40s both"><rect x="35.6" y="53.6" width="70.2" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.30s linear 0.40s"/></g>
-  <text x="20" y="97.5" font-size="30" class="name rise" style="animation-delay:1.05s">petar gospodinov</text>
-  <g style="transform:translateX(448.0px);animation:type 1.4s cubic-bezier(.45,.1,.25,1) 1.05s both"><rect x="-60" y="72.0" width="448.0" height="40.5" fill="url(#wipe)"/></g>
-  <text x="20" y="125.5" font-size="13" class="o rise" style="animation-delay:1.75s"><tspan class="dim">full-stack · devops &amp; ai · sofia</tspan></text>
-  <text x="20" y="159.5" font-size="13" class="p o" style="animation-delay:2.05s">$</text>
+  <g style="transform:translateX(54.6px);animation:type 0.35s steps(7) 0.40s both"><rect x="35.6" y="53.6" width="70.2" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.35s linear 0.40s"/></g>
+  <text x="20" y="97.5" font-size="30" class="name rise" style="animation-delay:1.10s">petar gospodinov</text>
+  <g style="transform:translateX(448.0px);animation:type 1.4s cubic-bezier(.45,.1,.25,1) 1.10s both"><rect x="-60" y="72.0" width="448.0" height="40.5" fill="url(#wipe)"/></g>
+  <text x="20" y="125.5" font-size="13" class="o rise" style="animation-delay:1.80s"><tspan class="dim">full-stack · devops &amp; ai · sofia</tspan></text>
+  <text x="20" y="159.5" font-size="13" class="p o" style="animation-delay:2.10s">$</text>
   <text x="35.6" y="159.5" font-size="13">kubectl describe engineer petar</text>
-  <g style="transform:translateX(241.8px);animation:type 1.40s steps(31) 2.25s both"><rect x="35.6" y="147.2" width="265.2" height="21" fill="#0f111a"/><rect x="35.6" y="149.1" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 1.40s linear 2.25s"/></g>
-  <text x="20" y="180.5" font-size="13" class="o " style="animation-delay:4.00s"><tspan class="k">Name:</tspan><tspan x="105.8" class="b">Petar Gospodinov</tspan></text>
-  <text x="20" y="201.5" font-size="13" class="o " style="animation-delay:4.07s"><tspan class="k">Role:</tspan><tspan x="105.8" class="">full-stack · devops · ai</tspan></text>
-  <text x="20" y="222.5" font-size="13" class="o " style="animation-delay:4.14s"><tspan class="k">Employer:</tspan><tspan x="105.8" class="">INDUSTRIA Technology</tspan></text>
-  <text x="20" y="243.5" font-size="13" class="o " style="animation-delay:4.21s"><tspan class="k">Studying:</tspan><tspan x="105.8" class="">MSc AI @ TU Sofia</tspan></text>
-  <text x="20" y="264.5" font-size="13" class="o " style="animation-delay:4.28s"><tspan class="k">Status:</tspan><tspan x="105.8" class="ok">● </tspan><tspan class="ok">Running</tspan><tspan class="dim"> (since 2022)</tspan></text>
-  <text x="20" y="285.5" font-size="13" class="o " style="animation-delay:4.35s"><tspan class="k">Labels:</tspan><tspan x="105.8" class="s">owns=release-flow</tspan></text>
-  <text x="20" y="306.5" font-size="13" class="o " style="animation-delay:4.42s"><tspan x="105.8" class="s">asks=uncomfortable-questions</tspan></text>
-  <text x="20" y="327.5" font-size="13" class="o " style="animation-delay:4.49s"><tspan class="k">Events:</tspan></text>
-  <text x="20" y="348.5" font-size="13" class="o " style="animation-delay:4.56s"><tspan x="35.6" class="ok">Normal</tspan><tspan x="105.8" class="">Promoted</tspan></text>
-  <text x="20" y="369.5" font-size="13" class="o " style="animation-delay:4.60s"><tspan x="51.2" class="dim">one image, dev → test → prod</tspan></text>
-  <text x="20" y="390.5" font-size="13" class="o " style="animation-delay:4.67s"><tspan x="35.6" class="ok">Normal</tspan><tspan x="105.8" class="">Hardened</tspan></text>
-  <text x="20" y="411.5" font-size="13" class="o " style="animation-delay:4.71s"><tspan x="51.2" class="dim">led the CSP rollout</tspan></text>
-  <text x="20" y="432.5" font-size="13" class="o " style="animation-delay:4.78s"><tspan x="35.6" class="ok">Normal</tspan><tspan x="105.8" class="">Evaluated</tspan></text>
-  <text x="20" y="453.5" font-size="13" class="o " style="animation-delay:4.82s"><tspan x="51.2" class="dim">agents that fact-check their numbers</tspan></text>
-  <text x="20" y="474.5" font-size="13" class="o " style="animation-delay:4.89s"><tspan x="35.6" class="w">Warning</tspan><tspan x="105.8" class="">Opinionated</tspan></text>
-  <text x="20" y="495.5" font-size="13" class="o " style="animation-delay:4.93s"><tspan x="51.2" class="dim">&quot;this plan won't hold&quot; — said early</tspan></text>
-  <g class="o" style="animation-delay:5.20s"><text x="20" y="516.5" font-size="13" class="p">$</text><rect x="35.6" y="506.1" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(249.6px);animation:type 1.44s steps(32) 2.30s both"><rect x="35.6" y="147.2" width="265.2" height="21" fill="#0f111a"/><rect x="35.6" y="149.1" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 1.44s linear 2.30s"/></g>
+  <text x="20" y="180.5" font-size="13" class="o " style="animation-delay:4.09s"><tspan class="k">Name:</tspan><tspan x="105.8" class="b">Petar Gospodinov</tspan></text>
+  <text x="20" y="201.5" font-size="13" class="o " style="animation-delay:4.16s"><tspan class="k">Role:</tspan><tspan x="105.8" class="">full-stack · devops · ai</tspan></text>
+  <text x="20" y="222.5" font-size="13" class="o " style="animation-delay:4.23s"><tspan class="k">Employer:</tspan><tspan x="105.8" class="">INDUSTRIA Technology</tspan></text>
+  <text x="20" y="243.5" font-size="13" class="o " style="animation-delay:4.30s"><tspan class="k">Studying:</tspan><tspan x="105.8" class="">MSc AI @ TU Sofia</tspan></text>
+  <text x="20" y="264.5" font-size="13" class="o " style="animation-delay:4.37s"><tspan class="k">Status:</tspan><tspan x="105.8" class="ok">● </tspan><tspan class="ok">Running</tspan><tspan class="dim"> (since 2022)</tspan></text>
+  <text x="20" y="285.5" font-size="13" class="o " style="animation-delay:4.44s"><tspan class="k">Labels:</tspan><tspan x="105.8" class="s">owns=release-flow</tspan></text>
+  <text x="20" y="306.5" font-size="13" class="o " style="animation-delay:4.51s"><tspan x="105.8" class="s">asks=uncomfortable-questions</tspan></text>
+  <text x="20" y="327.5" font-size="13" class="o " style="animation-delay:4.58s"><tspan class="k">Events:</tspan></text>
+  <text x="20" y="348.5" font-size="13" class="o " style="animation-delay:4.65s"><tspan x="35.6" class="ok">Normal</tspan><tspan x="105.8" class="">Promoted</tspan></text>
+  <text x="20" y="369.5" font-size="13" class="o " style="animation-delay:4.69s"><tspan x="51.2" class="dim">one image, dev → test → prod</tspan></text>
+  <text x="20" y="390.5" font-size="13" class="o " style="animation-delay:4.76s"><tspan x="35.6" class="ok">Normal</tspan><tspan x="105.8" class="">Hardened</tspan></text>
+  <text x="20" y="411.5" font-size="13" class="o " style="animation-delay:4.80s"><tspan x="51.2" class="dim">led the CSP rollout</tspan></text>
+  <text x="20" y="432.5" font-size="13" class="o " style="animation-delay:4.87s"><tspan x="35.6" class="ok">Normal</tspan><tspan x="105.8" class="">Evaluated</tspan></text>
+  <text x="20" y="453.5" font-size="13" class="o " style="animation-delay:4.91s"><tspan x="51.2" class="dim">agents that fact-check their numbers</tspan></text>
+  <text x="20" y="474.5" font-size="13" class="o " style="animation-delay:4.98s"><tspan x="35.6" class="w">Warning</tspan><tspan x="105.8" class="">Opinionated</tspan></text>
+  <text x="20" y="495.5" font-size="13" class="o " style="animation-delay:5.02s"><tspan x="51.2" class="dim">&quot;this plan won't hold&quot; — said early</tspan></text>
+  <g class="o" style="animation-delay:5.29s"><text x="20" y="516.5" font-size="13" class="p">$</text><rect x="35.6" y="506.1" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="418.5" height="540.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

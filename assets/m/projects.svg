@@ -41,12 +41,12 @@
   
     <text x="20" y="66" font-size="13" class="p o" style="animation-delay:0.20s">$</text>
   <text x="35.6" y="66" font-size="13">kubectl get projects</text>
-  <g style="transform:translateX(156.0px);animation:type 1.00s steps(20) 0.40s both"><rect x="35.6" y="53.6" width="179.4" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 1.00s linear 0.40s"/></g>
-  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.75s"><tspan x="20.0" class="dim">NAME</tspan><tspan x="160.4" class="dim">KIND</tspan><tspan x="238.4" class="dim">STATUS</tspan></text>
-  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.82s"><tspan x="20.0" class="b">imotko</tspan><tspan x="160.4" class="k">ai-agent</tspan><tspan x="238.4" class="ok">Running</tspan></text>
-  <text x="20" y="135.3" font-size="13" class="o " style="animation-delay:1.94s"><tspan x="20.0" class="b">nodeguard</tspan><tspan x="160.4" class="k">security</tspan><tspan x="238.4" class="ok">Running</tspan></text>
-  <text x="20" y="156.3" font-size="13" class="o " style="animation-delay:2.06s"><tspan x="20.0" class="b">commit-generator</tspan><tspan x="160.4" class="k">ai-cli</tspan><tspan x="238.4" class="cy">Completed</tspan></text>
-  <text x="20" y="177.3" font-size="13" class="o " style="animation-delay:2.18s"><tspan x="20.0" class="b">boardgamenexus</tspan><tspan x="160.4" class="k">cloud</tspan><tspan x="238.4" class="ok">Running</tspan></text>
-  <g class="o" style="animation-delay:2.50s"><text x="20" y="204.60000000000002" font-size="13" class="p">$</text><rect x="35.6" y="194.2" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(163.8px);animation:type 1.05s steps(21) 0.40s both"><rect x="35.6" y="53.6" width="179.4" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 1.05s linear 0.40s"/></g>
+  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.80s"><tspan x="20.0" class="dim">NAME</tspan><tspan x="160.4" class="dim">KIND</tspan><tspan x="238.4" class="dim">STATUS</tspan></text>
+  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.87s"><tspan x="20.0" class="b">imotko</tspan><tspan x="160.4" class="k">ai-agent</tspan><tspan x="238.4" class="ok">Running</tspan></text>
+  <text x="20" y="135.3" font-size="13" class="o " style="animation-delay:1.99s"><tspan x="20.0" class="b">nodeguard</tspan><tspan x="160.4" class="k">security</tspan><tspan x="238.4" class="ok">Running</tspan></text>
+  <text x="20" y="156.3" font-size="13" class="o " style="animation-delay:2.11s"><tspan x="20.0" class="b">commit-generator</tspan><tspan x="160.4" class="k">ai-cli</tspan><tspan x="238.4" class="cy">Completed</tspan></text>
+  <text x="20" y="177.3" font-size="13" class="o " style="animation-delay:2.23s"><tspan x="20.0" class="b">boardgamenexus</tspan><tspan x="160.4" class="k">cloud</tspan><tspan x="238.4" class="ok">Running</tspan></text>
+  <g class="o" style="animation-delay:2.55s"><text x="20" y="204.60000000000002" font-size="13" class="p">$</text><rect x="35.6" y="194.2" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="418.5" height="229.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 420 357" width="420" height="357" role="img" aria-labelledby="title desc">
   <title id="title">History</title>
-  <desc id="desc">Education and work history: 2022-09: bsc-informatics@plovdiv-uni (superseded), FMI Plovdiv · graduated 2026; 2023-01: python-engineer@softuni (superseded), diploma ✓ 2026; 2025-04: web-developer@ict-strypes (superseded), Django, FastAPI, Docker, Azure; 2026-03: fullstack@industria (deployed), AKS release flow, CI/CD, CSP; 2026-10: msc-ai@tu-sofia (pending), Applications of AI · in progress.</desc>
+  <desc id="desc">Education and work history: 2022-09: bsc-informatics@plovdiv-uni (superseded), Informatics · FMI Plovdiv · graduated 2026; 2023-01: python-engineer@softuni (superseded), diploma ✓ 2026; 2025-04: web-developer@ict-strypes (superseded), Django, FastAPI, Docker, Azure; 2026-03: fullstack@industria (deployed), AKS release flow, CI/CD, CSP; 2026-10: msc-ai@tu-sofia (pending), Applications of AI · in progress.</desc>
   <defs>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#a78bfa"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/>
@@ -41,18 +41,18 @@
   
     <text x="20" y="66" font-size="13" class="p o" style="animation-delay:0.20s">$</text>
   <text x="35.6" y="66" font-size="13">helm history petar</text>
-  <g style="transform:translateX(140.4px);animation:type 0.90s steps(18) 0.40s both"><rect x="35.6" y="53.6" width="163.8" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.90s linear 0.40s"/></g>
-  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.65s"><tspan x="20.0" class="dim">REV</tspan><tspan x="51.2" class="dim">UPDATED</tspan><tspan x="121.4" class="dim">STATUS</tspan><tspan x="215.0" class="dim">CHART</tspan></text>
-  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.72s"><tspan x="20.0" class="">1</tspan><tspan x="51.2" class="dim">2022-09</tspan><tspan x="121.4" class="dim">superseded</tspan><tspan x="215.0" class="s">bsc@plovdiv-uni</tspan></text>
-  <text x="20" y="135.3" font-size="13" class="o " style="animation-delay:1.78s"><tspan x="51.2" class="dim">└ FMI Plovdiv · graduated 2026</tspan></text>
-  <text x="20" y="156.3" font-size="13" class="o " style="animation-delay:1.86s"><tspan x="20.0" class="">2</tspan><tspan x="51.2" class="dim">2023-01</tspan><tspan x="121.4" class="dim">superseded</tspan><tspan x="215.0" class="s">python@softuni</tspan></text>
-  <text x="20" y="177.3" font-size="13" class="o " style="animation-delay:1.92s"><tspan x="51.2" class="dim">└ diploma ✓ 2026</tspan></text>
-  <text x="20" y="198.3" font-size="13" class="o " style="animation-delay:2.00s"><tspan x="20.0" class="">3</tspan><tspan x="51.2" class="dim">2025-04</tspan><tspan x="121.4" class="dim">superseded</tspan><tspan x="215.0" class="s">web-dev@ict-strypes</tspan></text>
-  <text x="20" y="219.3" font-size="13" class="o " style="animation-delay:2.06s"><tspan x="51.2" class="dim">└ Django, FastAPI, Docker, Azure</tspan></text>
-  <text x="20" y="240.3" font-size="13" class="o " style="animation-delay:2.14s"><tspan x="20.0" class="">4</tspan><tspan x="51.2" class="dim">2026-03</tspan><tspan x="121.4" class="ok b">deployed</tspan><tspan x="215.0" class="s">fullstack@industria</tspan></text>
-  <text x="20" y="261.3" font-size="13" class="o " style="animation-delay:2.20s"><tspan x="51.2" class="dim">└ AKS release flow, CI/CD, CSP</tspan></text>
-  <text x="20" y="282.3" font-size="13" class="o " style="animation-delay:2.28s"><tspan x="20.0" class="">5</tspan><tspan x="51.2" class="dim">2026-10</tspan><tspan x="121.4" class="w">pending</tspan><tspan x="215.0" class="s">msc-ai@tu-sofia</tspan></text>
-  <text x="20" y="303.3" font-size="13" class="o " style="animation-delay:2.34s"><tspan x="51.2" class="dim">└ Applications of AI · in progress</tspan></text>
-  <g class="o" style="animation-delay:2.62s"><text x="20" y="330.6" font-size="13" class="p">$</text><rect x="35.6" y="320.2" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(148.2px);animation:type 0.95s steps(19) 0.40s both"><rect x="35.6" y="53.6" width="163.8" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.95s linear 0.40s"/></g>
+  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.70s"><tspan x="20.0" class="dim">REV</tspan><tspan x="51.2" class="dim">UPDATED</tspan><tspan x="121.4" class="dim">STATUS</tspan><tspan x="215.0" class="dim">CHART</tspan></text>
+  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.77s"><tspan x="20.0" class="">1</tspan><tspan x="51.2" class="dim">2022-09</tspan><tspan x="121.4" class="dim">superseded</tspan><tspan x="215.0" class="s">bsc@plovdiv-uni</tspan></text>
+  <text x="20" y="135.3" font-size="13" class="o " style="animation-delay:1.83s"><tspan x="51.2" class="dim">└ Informatics · FMI Plovdiv · graduated 2026</tspan></text>
+  <text x="20" y="156.3" font-size="13" class="o " style="animation-delay:1.91s"><tspan x="20.0" class="">2</tspan><tspan x="51.2" class="dim">2023-01</tspan><tspan x="121.4" class="dim">superseded</tspan><tspan x="215.0" class="s">python@softuni</tspan></text>
+  <text x="20" y="177.3" font-size="13" class="o " style="animation-delay:1.97s"><tspan x="51.2" class="dim">└ diploma ✓ 2026</tspan></text>
+  <text x="20" y="198.3" font-size="13" class="o " style="animation-delay:2.05s"><tspan x="20.0" class="">3</tspan><tspan x="51.2" class="dim">2025-04</tspan><tspan x="121.4" class="dim">superseded</tspan><tspan x="215.0" class="s">web-dev@ict-strypes</tspan></text>
+  <text x="20" y="219.3" font-size="13" class="o " style="animation-delay:2.11s"><tspan x="51.2" class="dim">└ Django, FastAPI, Docker, Azure</tspan></text>
+  <text x="20" y="240.3" font-size="13" class="o " style="animation-delay:2.19s"><tspan x="20.0" class="">4</tspan><tspan x="51.2" class="dim">2026-03</tspan><tspan x="121.4" class="ok b">deployed</tspan><tspan x="215.0" class="s">fullstack@industria</tspan></text>
+  <text x="20" y="261.3" font-size="13" class="o " style="animation-delay:2.25s"><tspan x="51.2" class="dim">└ AKS release flow, CI/CD, CSP</tspan></text>
+  <text x="20" y="282.3" font-size="13" class="o " style="animation-delay:2.33s"><tspan x="20.0" class="">5</tspan><tspan x="51.2" class="dim">2026-10</tspan><tspan x="121.4" class="w">pending</tspan><tspan x="215.0" class="s">msc-ai@tu-sofia</tspan></text>
+  <text x="20" y="303.3" font-size="13" class="o " style="animation-delay:2.39s"><tspan x="51.2" class="dim">└ Applications of AI · in progress</tspan></text>
+  <g class="o" style="animation-delay:2.67s"><text x="20" y="330.6" font-size="13" class="p">$</text><rect x="35.6" y="320.2" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="418.5" height="355.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

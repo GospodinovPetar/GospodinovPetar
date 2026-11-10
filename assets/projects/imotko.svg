@@ -42,11 +42,11 @@
     <text x="18" y="64" font-size="13.5" class="o " style="animation-delay:1.60s"><tspan class="c"># AI real-estate broker for imot.bg</tspan></text>
   <text x="18" y="87" font-size="13.5" class="p o" style="animation-delay:1.47s">$</text>
   <text x="34.2" y="87" font-size="13.5">imotko &quot;тристаен в София до 200к&quot;</text>
-  <g style="transform:translateX(267.3px);animation:type 1.48s steps(33) 1.67s both"><rect x="34.2" y="74.2" width="291.6" height="23" fill="#0f111a"/><rect x="34.2" y="76.2" width="8.1" height="12.8" fill="#e6edf3" style="opacity:0;animation:curs 1.48s linear 1.67s"/></g>
-  <text x="18" y="110" font-size="13.5" class="o " style="animation-delay:3.41s"><tspan class="k">→ </tspan><tspan class="cy">search_apartments</tspan><tspan class="">(city=&quot;sofia&quot;, rooms=3)</tspan></text>
-  <text x="18" y="133" font-size="13.5" class="o " style="animation-delay:3.66s"><tspan class="k">→ </tspan><tspan class="cy">analyze_photos</tspan><tspan class="">(…) · </tspan><tspan class="cy">distance_between</tspan><tspan class="">(…)</tspan></text>
-  <text x="18" y="156" font-size="13.5" class="o " style="animation-delay:3.91s"><tspan class="ok">✓ </tspan><tspan class="">5 cards · every number backed by a tool</tspan></text>
-  <text x="18" y="179" font-size="13.5" class="o " style="animation-delay:4.16s"><tspan class="c"># agno · openrouter · gtfs · sqlite · docker</tspan></text>
-  <g class="o" style="animation-delay:4.43s"><text x="18" y="202" font-size="13.5" class="p">$</text><rect x="34.2" y="191.2" width="8.1" height="12.8" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(275.4px);animation:type 1.53s steps(34) 1.67s both"><rect x="34.2" y="74.2" width="291.6" height="23" fill="#0f111a"/><rect x="34.2" y="76.2" width="8.1" height="12.8" fill="#e6edf3" style="opacity:0;animation:curs 1.53s linear 1.67s"/></g>
+  <text x="18" y="110" font-size="13.5" class="o " style="animation-delay:3.45s"><tspan class="k">→ </tspan><tspan class="cy">search_apartments</tspan><tspan class="">(city=&quot;sofia&quot;, rooms=3)</tspan></text>
+  <text x="18" y="133" font-size="13.5" class="o " style="animation-delay:3.70s"><tspan class="k">→ </tspan><tspan class="cy">analyze_photos</tspan><tspan class="">(…) · </tspan><tspan class="cy">distance_between</tspan><tspan class="">(…)</tspan></text>
+  <text x="18" y="156" font-size="13.5" class="o " style="animation-delay:3.95s"><tspan class="ok">✓ </tspan><tspan class="">5 cards · every number backed by a tool</tspan></text>
+  <text x="18" y="179" font-size="13.5" class="o " style="animation-delay:4.20s"><tspan class="c"># agno · openrouter · gtfs · sqlite · docker</tspan></text>
+  <g class="o" style="animation-delay:4.47s"><text x="18" y="202" font-size="13.5" class="p">$</text><rect x="34.2" y="191.2" width="8.1" height="12.8" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="478.5" height="226.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

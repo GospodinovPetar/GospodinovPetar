@@ -41,25 +41,25 @@
   
     <text x="20" y="66" font-size="13" class="p o" style="animation-delay:0.20s">$</text>
   <text x="35.6" y="66" font-size="13">cat stack.yaml</text>
-  <g style="transform:translateX(109.2px);animation:type 0.70s steps(14) 0.40s both"><rect x="35.6" y="53.6" width="132.6" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.70s linear 0.40s"/></g>
-  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.45s"><tspan class="c"># pair-programs with me daily</tspan></text>
-  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.50s"><tspan class="k">ai:</tspan><tspan class="s"> [claude-code, openrouter, agno, groq]</tspan></text>
-  <text x="20" y="141.60000000000002" font-size="13" class="o " style="animation-delay:1.55s"><tspan class="c"># multi-cluster, one image</tspan></text>
-  <text x="20" y="162.60000000000002" font-size="13" class="o " style="animation-delay:1.60s"><tspan class="k">platform:</tspan><tspan class="s"> [kubernetes/aks, azure, helm, docker,</tspan></text>
-  <text x="20" y="183.60000000000002" font-size="13" class="o " style="animation-delay:1.65s"><tspan class="s">           traefik, linux]</tspan></text>
-  <text x="20" y="210.90000000000003" font-size="13" class="o " style="animation-delay:1.70s"><tspan class="c"># one branch per env</tspan></text>
-  <text x="20" y="231.90000000000003" font-size="13" class="o " style="animation-delay:1.75s"><tspan class="k">delivery:</tspan><tspan class="s"> [gitlab-ci, github-actions, git]</tspan></text>
-  <text x="20" y="259.20000000000005" font-size="13" class="o " style="animation-delay:1.80s"><tspan class="c"># no dashboard, didn't happen</tspan></text>
-  <text x="20" y="280.20000000000005" font-size="13" class="o " style="animation-delay:1.85s"><tspan class="k">observability:</tspan><tspan class="s"> [grafana, prometheus, sentry]</tspan></text>
-  <text x="20" y="307.50000000000006" font-size="13" class="o " style="animation-delay:1.90s"><tspan class="c"># django cms in production</tspan></text>
-  <text x="20" y="328.50000000000006" font-size="13" class="o " style="animation-delay:1.95s"><tspan class="k">backend:</tspan><tspan class="s"> [python, django, django-cms, fastapi,</tspan></text>
-  <text x="20" y="349.50000000000006" font-size="13" class="o " style="animation-delay:2.00s"><tspan class="s">          celery]</tspan></text>
-  <text x="20" y="376.80000000000007" font-size="13" class="o " style="animation-delay:2.05s"><tspan class="c"># cache with stale fallback</tspan></text>
-  <text x="20" y="397.80000000000007" font-size="13" class="o " style="animation-delay:2.10s"><tspan class="k">data:</tspan><tspan class="s"> [postgresql, redis, sqlite]</tspan></text>
-  <text x="20" y="425.1000000000001" font-size="13" class="o " style="animation-delay:2.15s"><tspan class="c"># js only where it earns it</tspan></text>
-  <text x="20" y="446.1000000000001" font-size="13" class="o " style="animation-delay:2.20s"><tspan class="k">frontend:</tspan><tspan class="s"> [javascript, htmx, alpine.js, tailwind]</tspan></text>
-  <text x="20" y="473.4000000000001" font-size="13" class="o " style="animation-delay:2.25s"><tspan class="c"># led the CSP rollout</tspan></text>
-  <text x="20" y="494.4000000000001" font-size="13" class="o " style="animation-delay:2.30s"><tspan class="k">security:</tspan><tspan class="s"> [csp, input-validation, gdpr/onetrust]</tspan></text>
-  <g class="o" style="animation-delay:2.55s"><text x="20" y="521.7" font-size="13" class="p">$</text><rect x="35.6" y="511.3" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(117.0px);animation:type 0.75s steps(15) 0.40s both"><rect x="35.6" y="53.6" width="132.6" height="21" fill="#0f111a"/><rect x="35.6" y="55.6" width="7.8" height="12.3" fill="#e6edf3" style="opacity:0;animation:curs 0.75s linear 0.40s"/></g>
+  <text x="20" y="93.3" font-size="13" class="o " style="animation-delay:1.50s"><tspan class="c"># pair-programs with me daily</tspan></text>
+  <text x="20" y="114.3" font-size="13" class="o " style="animation-delay:1.55s"><tspan class="k">ai:</tspan><tspan class="s"> [claude-code, openrouter, agno, groq]</tspan></text>
+  <text x="20" y="141.60000000000002" font-size="13" class="o " style="animation-delay:1.60s"><tspan class="c"># multi-cluster, one image</tspan></text>
+  <text x="20" y="162.60000000000002" font-size="13" class="o " style="animation-delay:1.65s"><tspan class="k">platform:</tspan><tspan class="s"> [kubernetes/aks, azure, helm, docker,</tspan></text>
+  <text x="20" y="183.60000000000002" font-size="13" class="o " style="animation-delay:1.70s"><tspan class="s">           traefik, linux]</tspan></text>
+  <text x="20" y="210.90000000000003" font-size="13" class="o " style="animation-delay:1.75s"><tspan class="c"># one branch per env</tspan></text>
+  <text x="20" y="231.90000000000003" font-size="13" class="o " style="animation-delay:1.80s"><tspan class="k">delivery:</tspan><tspan class="s"> [gitlab-ci, github-actions, git]</tspan></text>
+  <text x="20" y="259.20000000000005" font-size="13" class="o " style="animation-delay:1.85s"><tspan class="c"># no dashboard, didn't happen</tspan></text>
+  <text x="20" y="280.20000000000005" font-size="13" class="o " style="animation-delay:1.90s"><tspan class="k">observability:</tspan><tspan class="s"> [grafana, prometheus, sentry]</tspan></text>
+  <text x="20" y="307.50000000000006" font-size="13" class="o " style="animation-delay:1.95s"><tspan class="c"># django cms in production</tspan></text>
+  <text x="20" y="328.50000000000006" font-size="13" class="o " style="animation-delay:2.00s"><tspan class="k">backend:</tspan><tspan class="s"> [python, django, django-cms, fastapi,</tspan></text>
+  <text x="20" y="349.50000000000006" font-size="13" class="o " style="animation-delay:2.05s"><tspan class="s">          celery]</tspan></text>
+  <text x="20" y="376.80000000000007" font-size="13" class="o " style="animation-delay:2.10s"><tspan class="c"># cache with stale fallback</tspan></text>
+  <text x="20" y="397.80000000000007" font-size="13" class="o " style="animation-delay:2.15s"><tspan class="k">data:</tspan><tspan class="s"> [postgresql, redis, sqlite]</tspan></text>
+  <text x="20" y="425.1000000000001" font-size="13" class="o " style="animation-delay:2.20s"><tspan class="c"># js only where it earns it</tspan></text>
+  <text x="20" y="446.1000000000001" font-size="13" class="o " style="animation-delay:2.25s"><tspan class="k">frontend:</tspan><tspan class="s"> [javascript, htmx, alpine.js, tailwind]</tspan></text>
+  <text x="20" y="473.4000000000001" font-size="13" class="o " style="animation-delay:2.30s"><tspan class="c"># led the CSP rollout</tspan></text>
+  <text x="20" y="494.4000000000001" font-size="13" class="o " style="animation-delay:2.35s"><tspan class="k">security:</tspan><tspan class="s"> [csp, input-validation, gdpr/onetrust]</tspan></text>
+  <g class="o" style="animation-delay:2.60s"><text x="20" y="521.7" font-size="13" class="p">$</text><rect x="35.6" y="511.3" width="7.8" height="12.3" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="418.5" height="546.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>

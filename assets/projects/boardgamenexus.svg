@@ -42,11 +42,11 @@
     <text x="18" y="64" font-size="13.5" class="o " style="animation-delay:1.60s"><tspan class="c"># board-game events, venues and bookings</tspan></text>
   <text x="18" y="87" font-size="13.5" class="p o" style="animation-delay:1.47s">$</text>
   <text x="34.2" y="87" font-size="13.5">git push origin main</text>
-  <g style="transform:translateX(162.0px);animation:type 0.90s steps(20) 1.67s both"><rect x="34.2" y="74.2" width="186.3" height="23" fill="#0f111a"/><rect x="34.2" y="76.2" width="8.1" height="12.8" fill="#e6edf3" style="opacity:0;animation:curs 0.90s linear 1.67s"/></g>
-  <text x="18" y="110" font-size="13.5" class="o " style="animation-delay:2.82s"><tspan class="k">→ </tspan><tspan class="cy">build   </tspan><tspan class="">pip install -r requirements.txt  </tspan><tspan class="ok">✓</tspan></text>
-  <text x="18" y="133" font-size="13.5" class="o " style="animation-delay:3.07s"><tspan class="k">→ </tspan><tspan class="cy">login   </tspan><tspan class="">azure/login via OIDC             </tspan><tspan class="ok">✓</tspan></text>
-  <text x="18" y="156" font-size="13.5" class="o " style="animation-delay:3.32s"><tspan class="k">→ </tspan><tspan class="cy">deploy  </tspan><tspan class="">webapp/boardgamenexus            </tspan><tspan class="ok">✓</tspan></text>
-  <text x="18" y="179" font-size="13.5" class="o " style="animation-delay:3.57s"><tspan class="c"># django rest · redis · celery · azure</tspan></text>
-  <g class="o" style="animation-delay:3.84s"><text x="18" y="202" font-size="13.5" class="p">$</text><rect x="34.2" y="191.2" width="8.1" height="12.8" fill="#e6edf3" class="blink"/></g>
+  <g style="transform:translateX(170.1px);animation:type 0.94s steps(21) 1.67s both"><rect x="34.2" y="74.2" width="186.3" height="23" fill="#0f111a"/><rect x="34.2" y="76.2" width="8.1" height="12.8" fill="#e6edf3" style="opacity:0;animation:curs 0.94s linear 1.67s"/></g>
+  <text x="18" y="110" font-size="13.5" class="o " style="animation-delay:2.87s"><tspan class="k">→ </tspan><tspan class="cy">build   </tspan><tspan class="">pip install -r requirements.txt  </tspan><tspan class="ok">✓</tspan></text>
+  <text x="18" y="133" font-size="13.5" class="o " style="animation-delay:3.12s"><tspan class="k">→ </tspan><tspan class="cy">login   </tspan><tspan class="">azure/login via OIDC             </tspan><tspan class="ok">✓</tspan></text>
+  <text x="18" y="156" font-size="13.5" class="o " style="animation-delay:3.37s"><tspan class="k">→ </tspan><tspan class="cy">deploy  </tspan><tspan class="">webapp/boardgamenexus            </tspan><tspan class="ok">✓</tspan></text>
+  <text x="18" y="179" font-size="13.5" class="o " style="animation-delay:3.62s"><tspan class="c"># django rest · redis · celery · azure</tspan></text>
+  <g class="o" style="animation-delay:3.89s"><text x="18" y="202" font-size="13.5" class="p">$</text><rect x="34.2" y="191.2" width="8.1" height="12.8" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="478.5" height="226.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>
