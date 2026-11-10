@@ -5,7 +5,6 @@
 
 ## :man_technologist: About Me
 - **Current Role:** Fullstack Developer
-- **Resume:** [View my resume](https://petar-gospodinov.tiiny.site)  
 - **Projects:** [My GitHub repositories](https://github.com/GospodinovPetar?tab=repositories)  
 - **Email:** p.gospodinovv@gmail.com
 
