@@ -5,6 +5,9 @@
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#a78bfa"/><stop offset=".55" stop-color="#38bdf8"/><stop offset="1" stop-color="#34d399"/>
     </linearGradient>
+    <linearGradient id="wipe" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f111a" stop-opacity="0"/><stop offset=".16" stop-color="#0f111a"/><stop offset="1" stop-color="#0f111a"/>
+    </linearGradient>
   </defs>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #e6edf3; white-space: pre; }
@@ -21,7 +24,9 @@
     .name { fill: url(#name); font-weight: 800; }
     .title { fill: #8b949e; font-size: 12px; }
     .o { animation: pop .01s linear both; }
+    .rise { animation: rise .8s cubic-bezier(.2,.8,.2,1) both; }
     .blink { animation: blink 1.1s steps(1) infinite; }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
     @keyframes type { from { transform: translateX(0); } }
     @keyframes pop { from { opacity: 0; } }
     @keyframes curs { from, to { opacity: 1; } }
@@ -37,11 +42,11 @@
     <text x="18" y="64" font-size="12.5" class="o " style="animation-delay:1.60s"><tspan class="c"># AI real-estate broker for imot.bg</tspan></text>
   <text x="18" y="86" font-size="12.5" class="p o" style="animation-delay:1.47s">$</text>
   <text x="33.0" y="86" font-size="12.5">imotko &quot;тристаен в София до 200к&quot;</text>
-  <g style="transform:translateX(247.5px);animation:type 1.48s steps(33) 1.67s both"><rect x="33.0" y="74.1" width="270.0" height="22" fill="#0f111a"/><rect x="33.0" y="77.1" width="7.5" height="16" fill="#e6edf3" style="opacity:0;animation:curs 1.48s linear 1.67s"/></g>
+  <g style="transform:translateX(247.5px);animation:type 1.48s steps(33) 1.67s both"><rect x="33.0" y="74.1" width="270.0" height="22" fill="#0f111a"/><rect x="33.0" y="76.0" width="7.5" height="11.9" fill="#e6edf3" style="opacity:0;animation:curs 1.48s linear 1.67s"/></g>
   <text x="18" y="108" font-size="12.5" class="o " style="animation-delay:3.41s"><tspan class="k">→ </tspan><tspan class="cy">search_apartments</tspan><tspan class="">(city=&quot;sofia&quot;, rooms=3)</tspan></text>
   <text x="18" y="130" font-size="12.5" class="o " style="animation-delay:3.66s"><tspan class="k">→ </tspan><tspan class="cy">analyze_photos</tspan><tspan class="">(…) · </tspan><tspan class="cy">distance_between</tspan><tspan class="">(…)</tspan></text>
   <text x="18" y="152" font-size="12.5" class="o " style="animation-delay:3.91s"><tspan class="ok">✓ </tspan><tspan class="">5 cards · every number backed by a tool</tspan></text>
   <text x="18" y="174" font-size="12.5" class="o " style="animation-delay:4.16s"><tspan class="c"># agno · openrouter · gtfs · sqlite · docker</tspan></text>
-  <g class="o" style="animation-delay:4.43s"><text x="18" y="196" font-size="12.5" class="p">$</text><rect x="33.0" y="187.1" width="7.5" height="16" fill="#e6edf3" class="blink"/></g>
+  <g class="o" style="animation-delay:4.43s"><text x="18" y="196" font-size="12.5" class="p">$</text><rect x="33.0" y="186.0" width="7.5" height="11.9" fill="#e6edf3" class="blink"/></g>
   <rect x=".75" y=".75" width="478.5" height="220.5" rx="12" fill="none" stroke="#2a2f3d" stroke-width="1.5"/>
 </svg>
